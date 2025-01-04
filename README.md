@@ -20,3 +20,10 @@ Our deck has another method called rm_card which removes and returns a card from
 Card Game with Python: Class Player
 You need a class to represent each player in the game to keep track of their cards and the number of tricks won:
 The Player class has three instance variables: wins to keep track of the number of turns a player has won, card to represent the card a player currently holds, and name to keep track of a player’s name.
+
+New Features:
+Scoreboard Display: After each round, the current score is displayed.
+Automatic Deck Refill: If the deck runs out of cards, it reshuffles and continues.
+Round Counter: Tracks the number of rounds played.
+Tie Handling: In case of a tie, both players draw an additional card for a tiebreaker.
+Better User Interaction: Clear prompts and feedback during the game.
